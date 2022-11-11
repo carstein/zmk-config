@@ -11,7 +11,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Base {
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
             // |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
@@ -19,10 +19,16 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
- &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P  &kp BSLH  &kp TAB   &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L  &kp SEMI  &kp SQT  &kp LSHFT   &kp Z   &kp X   &kp C   &kp V   &kp B  &kp LEFT_ALT  &kp LSHFT  &kp LSHFT  &kp LSHFT   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL  &kp LGUI  &kp DEL  &kp RET  &kp SPACE  &kp ESC  &kp RET  &kp SPACE  &kp TAB  &kp BSPC  &kp RALT
+ &kp ESC   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp U   &kp I   &kp O   &kp P  &kp PIPE  &kp TAB   &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K   &kp L  &kp SEMI  &kp SQT   &mo 1   &kp Z   &kp X   &kp C   &kp V   &kp B  &kp LEFT_ALT  &kp LSHFT  &kp LSHFT  &kp LSHFT   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL  &kp LGUI  &kp DEL  &kp RET  &kp SPACE  &kp ESC  &kp RET  &kp SPACE  &kp TAB  &kp BSPC  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        Raise {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
