@@ -37,7 +37,7 @@
             >;
         };
 
-        Layer__2 {
+        Lower {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
