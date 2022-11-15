@@ -39,10 +39,10 @@
 
         Lower {
             bindings = <
- &kp TILDE  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                  &kp CARET  &kp AMPERSAND  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-    &trans           &trans  &trans    &trans      &trans       &trans                                     &trans         &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans
-    &trans           &trans  &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans     &trans         &trans    &trans                &trans                 &trans  &trans
-                             &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans     &trans         &trans
+ &kp TILDE  &kp EXCLAMATION  &kp AT       &kp HASH     &kp DOLLAR  &kp PERCENT                                  &kp CARET  &kp AMPERSAND  &kp STAR  &trans  &trans  &trans
+    &trans           &trans  &trans  &kp undefined  &kp undefined       &trans                                     &trans  &kp undefined       &kp  &trans  &trans  &trans
+    &trans           &trans  &trans         &trans         &trans       &trans  &trans  &trans  &trans  &trans     &trans         &trans    &trans  &trans  &trans  &trans
+                             &trans         &trans         &trans       &trans  &trans  &trans  &trans  &trans     &trans         &trans
             >;
         };
     };
